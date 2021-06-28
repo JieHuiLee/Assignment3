@@ -13,11 +13,13 @@ Fill all the information to proceed registration Event and also the donation.
 After that, when they click exit, will appear Advertisement window. Then only the exit button will provided to exit the program.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Admin1 Username: Admin01
-Admin1 Password: 5umW17hUs
+Admin1 
+Username: Admin01
+Password: 5umW17hUs
 
-Admin2 Username: Admin02
-Admin2 Password: SvmWithVs
+Admin2 
+Username: Admin02
+Password: SvmWithVs
 
 Steps:
 1. Login via AdminLogin
