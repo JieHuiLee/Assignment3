@@ -22,7 +22,7 @@ Username: Admin02
 Password: SvmWithVs
 
 Steps:
-1. Login via AdminLogin
+1. Login as Admin, select loginOption "Admin"
 2. The page will go to Finance, to proceed the Finance, MUST switch to Admin by clicking the panelMainMenu which written "Settings".
 3. Then, Set and Enter the value to the SumWithUs, Finance and Event
 4. Can check the updateInfo through the panelMainMenu (by clicking each small panel) -frame to frame
