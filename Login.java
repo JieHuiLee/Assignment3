@@ -194,7 +194,7 @@ public class Login extends JFrame {
 				       }							
 				}
 				else if(loginOption.getSelectedItem().equals("Admin")) {
-					if(UsernameTextField.getText().equals("Admin01") && passwordField.getText().equals("5umW17hUs") || UsernameTextField.getText().equals("Admin02") && passwordField.getText().equals("SvmWithVs") || UsernameTextField.getText().equals("Admin02") && passwordField.getText().equals("SvmWithVs")) {
+					if(UsernameTextField.getText().equals("Admin01") && passwordField.getText().equals("5umW17hUs") || UsernameTextField.getText().equals("Admin02") && passwordField.getText().equals("SvmWithVs")) {
 						JOptionPane.showMessageDialog(null, "Login Successful!");
 						
 						Finance f = new Finance(); //obj created for class Finance() 
