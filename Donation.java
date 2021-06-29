@@ -148,7 +148,7 @@ public class Donation extends JFrame {
 				JButton btnConfirm1 = new JButton("Confirm");
 				btnConfirm1.addActionListener(new ActionListener() {
 					public void actionPerformed(ActionEvent e) {
-						JOptionPane.showMessageDialog(null, "Donation Done Succesful!");
+					        JOptionPane.showMessageDialog(null, "Donation Done Succesful!");
 						Advertisement ad = new Advertisement(); //obj created for Advertisement()
 						ad.setVisible(true); //Open the Advertisement.java window
 						dispose(); //Close Donation.java window
