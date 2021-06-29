@@ -32,7 +32,7 @@ public class SumWithUs extends JFrame {
 	 * Launch the application.
 	 */
 	
-	public static void TextFromFile(JTextPane txtpnHowToJoinLuckyDraw) {
+	public static void TextFromFile(JTextPane txtpnHowToJoinLuckyDraw) { //Read and import from AboutUs txtFile 
 		try {
 			String path = "D:\\LeeJieHui279096\\STIA1123_Programming_A202(I)\\Assignment3\\GUI_NGO Racial Injusctice\\TextFileAss3\\Admin_UpdateDescription\\AboutUs.txt";
 			File file = new File(path);
