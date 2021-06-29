@@ -10,7 +10,8 @@ If user need to see the Event, can at the SumWithUs windows click "Click Here To
 At the Event frame, user can click the radioButton eventType to view the Event Poster and each event Details.
 To do registration, user need to click which event they need to participate to proceed the Registration windows (Participant).
 Fill all the information to proceed registration Event and also the donation.
-After that, when they click exit, will appear Advertisement window. Then only the exit button will provided to exit the program.
+Click Donation and select the Confirm Button to proceed a Message that display "Donation Done Successfully!"
+then only will jump to Advertisement window. Then click exit button will jump back to login page then click exit again only exit the program.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Admin1 
@@ -23,6 +24,6 @@ Password: SvmWithVs
 
 Steps:
 1. Login as Admin, select loginOption "Admin"
-2. The page will go to Finance, to proceed the Finance, MUST switch to Admin by clicking the panelMainMenu which written "Settings".
-3. Then, Set and Enter the value to the SumWithUs, Finance and Event
+2. The page will go to Admin, to proceed the Finance, if unfortunately click Finance forget to set value FIRST, MUST switch to Admin by clicking the panelMainMenu which written "Settings".
+3. Then, Set and Enter the value to the SumWithUs(About Us), Finance (setAdExpenses,ExtraExpenses,Sponsor) and EventInfo, can click Attach button to upload New Event Poster then it will proceed to User Interface will appear the Poster when User click to View Event Description to view Poster that uploaded by Admin.
 4. Can check the updateInfo through the panelMainMenu (by clicking each small panel) -frame to frame
