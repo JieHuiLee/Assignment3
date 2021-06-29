@@ -1,5 +1,6 @@
 # Assignment3_NGO_RacialInjustice
 User Instruction (given)
+There have different username and password can view at UserPwdData.txt
 
 First come with the Login Page. There are provided a select login option either User or Admin:
 If login as User, select loginOption as "User", the username and password must exist in the textFile first, only the User can log in using by their personal username and password.
