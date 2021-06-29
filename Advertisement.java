@@ -32,7 +32,6 @@ import javax.swing.DropMode;
 public class Advertisement extends JFrame {
 
 	private JPanel contentPane;
-	private JFrame frame;
 	private JTextPane txtpnHowToJoinLuckyDraw;
 	/**
 	 * Launch the application.
@@ -145,11 +144,9 @@ public class Advertisement extends JFrame {
 		btnExit.setBounds(702, 549, 224, 48);
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				frame = new JFrame();
-				if (JOptionPane.showConfirmDialog(frame, "Confirm if you want to exit", "Sum With Us System", 
-						JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION) {
-					System.exit(0); //Exit the program
-			}
+				Login l = new Login();//obj created for class Login() 
+				l.setVisible(true); // Open the Login.java window
+				dispose();// Close the Login.java window
 			}
 		});
 		btnExit.setFont(new Font("Times New Roman", Font.PLAIN, 20));
